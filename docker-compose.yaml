@@ -1,6 +1,6 @@
 network:
   # the presence of these objects is sufficient to define them
-  expense: {}
+  expense:
 vloumes:
  mysql:
 servieces: 
