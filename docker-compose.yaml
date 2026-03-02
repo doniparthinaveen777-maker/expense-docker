@@ -13,7 +13,7 @@ services:
     volumes:
     - mysql:/var/lib/mysql
 
-  bakend:
+  backend:
     image: backend:1.0.0
     networks:
     - expense
