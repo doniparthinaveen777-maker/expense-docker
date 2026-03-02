@@ -15,7 +15,7 @@ servieces:
 
   bakend:
     image: backend:1.0.0
-    network:
+    networks:
      -expense
     container_name: backend
     depends_on:
@@ -24,11 +24,11 @@ servieces:
 
   frontend:
      image: frontend:1.0.0
-     network:
+     networks:
      - expense
      container_name: frontend  
      ports:
      - 80:80
      depends_on:
      - backend
-     
+
