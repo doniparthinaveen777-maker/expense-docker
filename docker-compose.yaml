@@ -1,9 +1,9 @@
-network:
+networks:
   # the presence of these objects is sufficient to define them
   expense:
 vloumes:
  mysql:
-servieces: 
+services: 
    #docker run -d --name mysql --network expense -v mysql:/var/lib/mysql mysql:1.0.0
   mysql: 
     image: mysql:1.0.0
